@@ -1,0 +1,16 @@
+{
+  "name": "snes-midi-controller",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "midi": "^0.9.5",
+    "node-gamepad": "^0.1.15"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
