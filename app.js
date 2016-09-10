@@ -8,6 +8,9 @@ var MIDIPlayer = require('midiplayer');
 var MIDIFile = require('midifile');
 var GamePad = require('node-gamepad');
 var fs = require('fs');
+var player = require('play-sound')(opts = {})
+
+
 
 // INIT MIDI
 var output = new midi.output();
@@ -56,6 +59,7 @@ controller.on('r:press', function() {
 	console.log('pressed r');
 });
 controller.on('start:press', function() {
+	player.play('Jotun Demo.mp3', function(err){});
     midiPlayer.play(function() {
         console.log('Play ended');
     });

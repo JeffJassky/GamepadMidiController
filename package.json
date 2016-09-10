@@ -8,7 +8,8 @@
     "midifile": "^1.0.4",
     "midiplayer": "^1.0.0",
     "node-gamepad": "^0.1.15",
-    "performance-now": "^0.2.0"
+    "performance-now": "^0.2.0",
+    "play-sound": "0.0.9"
   },
   "devDependencies": {},
   "scripts": {
