@@ -26,7 +26,7 @@ var controller = new GamePad(
 controller.connect();
 
 // INIT MIDI FILE PLAYER
-var data = fs.readFileSync('blackstar.mid'); 
+var data = fs.readFileSync('Jotun Demo.mid'); 
 // Creating player 
 var midiPlayer = new MIDIPlayer({'output': output });
 // creating the MidiFile instance from a buffer (view MIDIFile README) 
