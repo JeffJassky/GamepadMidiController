@@ -43,8 +43,12 @@ controller.on('x:press', function() {
 	console.log('pressed x');
 });
 controller.on('a:press', function() {
-	output.sendMessage([instruction,6,velocity]);
+	output.sendMessage([instruction,45,velocity]);
 	console.log('pressed a');
+});
+controller.on('y:press', function() {
+        output.sendMessage([instruction,41,velocity]);
+        console.log('pressed y');
 });
 controller.on('b:press', function() {
 	output.sendMessage([instruction,40,velocity]);
@@ -55,7 +59,7 @@ controller.on('l:press', function() {
 	console.log('pressed l');
 });
 controller.on('r:press', function() {
-	output.sendMessage([instruction,11,velocity]);
+	output.sendMessage([instruction,49,velocity]);
 	console.log('pressed r');
 });
 controller.on('start:press', function() {
